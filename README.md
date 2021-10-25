@@ -1,6 +1,6 @@
 # whitepaper
 
-Repository containing reasearch about, and the whitepaper of, Proof of Build / the feldmanchain 
+Repository containing research about, and the whitepaper of, Proof of Build / the feldmanchain 
 
 ## Discussions
 
@@ -11,6 +11,6 @@ This repository uses [discussions](https://github.com/feldmanchain/whitepaper/di
 
 ## Research
 
-As a step in the process of building the feldmanchain, we have conducted reasearch on prior and related technologies:
+As a step in the process of building the feldmanchain, we have conducted research on prior and related technologies:
 
 * [Ethereum](/research/ethereum.md)
