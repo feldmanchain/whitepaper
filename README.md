@@ -2,6 +2,10 @@
 
 Repository containing research about, and the whitepaper of, Proof of Build / the feldmanchain 
 
+## Whitepaper
+
+* A working draft of the whitepaper can be found [here](/whitepaper.md)
+
 ## Discussions
 
 This repository uses [discussions](https://github.com/feldmanchain/whitepaper/discussions) to talk about different topic of interests.
