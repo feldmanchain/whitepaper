@@ -17,4 +17,5 @@ This repository uses [discussions](https://github.com/feldmanchain/whitepaper/di
 
 As a step in the process of building the feldmanchain, we have conducted research on prior and related technologies:
 
+* [Bitcoin](/research/bitcoin.md)
 * [Ethereum](/research/ethereum.md)
