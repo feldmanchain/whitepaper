@@ -28,4 +28,4 @@ As a step in the process of building the feldmanchain, we have conducted researc
 
 We are contemplating implementing an auction house like architecture. A high-level visualization of that can be seen below;
 
-![auction house architecture](/assets/feldmanchain-auctioneer-flow.pdf)
+![auction house architecture](/assets/feldmanchain-auctioneer-flow.png)
