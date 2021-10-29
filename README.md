@@ -23,3 +23,9 @@ As a step in the process of building the feldmanchain, we have conducted researc
 
 * [Bitcoin](/research/bitcoin.md)
 * [Ethereum](/research/ethereum.md)
+
+## High-level architecture
+
+We are contemplating implementing an auction house like architecture. A high-level visualization of that can be seen below;
+
+![auction house architecture](/assets/feldmanchain-auctioneer-flow.pdf)
