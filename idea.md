@@ -6,6 +6,10 @@ _I suggest we use a second-price closed-envelop (Vickrey or Vickrey–Clarke–G
 
 _Much like other blockchains, security and integrity is achieved by decentralization. Even if a single validator or builder acts in bad faith, given sufficient decentralization, a coordinated attack should be statistically impossible._
 
+## At a glance
+
+![distribution of build requests](/assets/feldmanchain-distribution-of-build-requests.png)
+
 ## Identifying the weak points
 
 Given the nature of a decentralized system - that not one single entity can be trusted - it stands to reason that the most logical way to achieve integrity is via distribution and redundancy. As far as performing transactions, this kind of a system is already implemented in all major blockchains AFAIK. Since each node in a blockchain keeps a full copy of the blockchain, for a chain to be accepted it must overtake more than half of all nodes (AKA the 51% attack).
