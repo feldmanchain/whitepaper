@@ -1,10 +1,41 @@
-# Trustless and predictable bidding using Vickrey auctions and consensus through discrete uniform build distributions
+# Using Vickrey auctions and a discrete uniform distribution of build jobs to ensure integrity in a trustless system
 
 ## TLDR
 
-_I suggest we use a second-price closed-envelop (Vickrey or Vickrey–Clarke–Groves) auction to handle build requests with an auctioneer/validator escrow intermediary to settle auctions, validate builds and execute payouts. I further suggest that we use a distributed consensus mechanism with a discrete uniform distribution over n auctioneers and builders to prevent coordinated attacks._
+_I suggest we use a second-price closed-envelop (Vickrey or Vickrey–Clarke–Groves) auction to handle build requests with auctioneer/validator escrow intermediaries to settle auctions, validate builds and execute payouts. I further suggest that we use a distributed consensus mechanism with a discrete uniform distribution over **n** auctioneers and **n*n** builders to prevent coordinated attacks._
 
 _Much like other blockchains, security and integrity is achieved by decentralization. Even if a single validator or builder acts in bad faith, given sufficient decentralization, a coordinated attack should be statistically impossible._
+
+## Identifying the weak points
+
+Given the nature of a decentralized system - that not one single entity can be trusted - it stands to reason that the most logical way to achieve integrity is via distribution and redundancy. As far as performing transactions, this kind of a system is already implemented in all major blockchains AFAIK. Since each node in a blockchain keeps a full copy of the blockchain, for a chain to be accepted it must overtake more than half of all nodes (AKA the 51% attack).
+
+One problem that this does not solve, however, is that when it comes to mining a block, one and only one miner is involved. This opens up the door for manipulations such as front-running and miner-extractable value (MEV).
+
+When it comes to transactions in general, the feldmanchain will be exposed to the same vulnerabilities as other blockchains, and in these cases we should consult existing solutions. When it comes to the specific task of executing build jobs, the problem is much more concrete and thus limited in scope and by extension easier to reason about and solve.
+
+Addressing the latter, as I see it, it all comes down to the fact that **not one single entity can be trusted to carry out a build request on their own**.
+
+## Solution
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+OLD 
 
 ## Solving the problem of gaming the system
 
