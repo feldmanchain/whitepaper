@@ -2,11 +2,11 @@
 
 ## The BitTorrent Protocol
 
-[BitTorrent] runs on a protocol called the BitTorrent Protocol which is a distributed communication protocol created in 2001 by Bram Cohen. In some aspects it is a predecessor to blockchains, in that  there is no trusted third party and peers share information directly with each other, even though technically not a blockchain in its canonical form.
+[BitTorrent] runs on a protocol called the BitTorrent Protocol which is a distributed communication protocol created in 2001 by Bram Cohen. In some aspects it is a predecessor to blockchains, in that there is no trusted third party and peers share information directly with each other, even though technically not a blockchain in its canonical form.
 
 The main entity within the protocol is the client software endpoint (called a "client" or "peer"). Each peer in the network can both download files from other peers and upload files for other peers to download, eliminating the need for a central server.
 
-To find a peer that has a file (or part of it), the network includes something called a "tracker" which is a server that keeps track of which peers has which files. This concept does sound like a form of centralization, but it is not a requirement for participation and there are alternatives such as doing a lookup in a decentralized database called the DHT. 
+To find a peer that has a file (or part of it), the network includes something called a "trackers" which are servers that keeps track of which peers has which files. While this concept _is_ a form of centralization, it is also true that more or less all peer-to-peer networks use some ford of trackers / seeders / boot strappers. This is typically implemented as a distributed hash table called "Kademlia". It is also the case that a tracker is not required for participation and there are alternatives such as doing a lookup in a decentralized database called the DHT. 
 
 The files being transferred are cut into smaller pieces before being sent, each piece identified by a so called "info hash", making it possible to verify that the correct pieces are being transferred. Peers are naturally segmented into "swarms" by the common interest of sharing pieces of the same file. A client that is transferring pieces is regarded as productive, making the network favor it for further transfers, while less productive clients gets deprecated, disconnected or banned. A client is, however, not required to upload files to use the network.
 
