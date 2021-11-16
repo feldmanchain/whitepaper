@@ -31,3 +31,19 @@ ____
 _alt. validator_
 
 An entity that verifies builds for correctness
+
+## Escrow
+
+A legal arrangement in which a third party temporarily holds assets until a condition has been met
+
+## Vickrey–Clarke–Groves auction
+
+_alt. VCG_
+
+A type of sealed-bid auction
+
+## Decentralized App
+
+_alt. dapp_
+
+An application built on a decentralized network, usually a blockchain
