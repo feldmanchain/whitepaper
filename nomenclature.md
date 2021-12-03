@@ -6,7 +6,7 @@ ____
 
 ## User
 
-_alt. Project Author_
+_alt. Project Author, Client_
 
 The end user which uses the feldmanchain to build source code
 
